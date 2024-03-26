@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: "Hind Guntur", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+}
+
+div.ui {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.todoList {
+    font-size: 20px;
+    width: 800px;
+}
+.todoListTitle {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.todoActors {
+    margin: 20px;
+}
+.todoInput {
+    font-size: 25px;
+    width: 675px;
+    height: 65px;
+    border-style: solid;
+    border-color: rgb(100, 100, 100);
+    border-width: 4px;
+    border-radius: 10px;
+}
+.todoButton {
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    padding-top: 5px;
+    background: white;
+    border-style: solid;
+    border-color: rgb(100, 100, 100);
+    border-width: 4px;
+    border-radius: 10px;
+    transition: 0.1s ease-in-out;
+}
+.todoButton:hover {
+    background: rgb(226, 226, 226);
+    border-color: rgb(86, 86, 86);
+}
+.todoButton:active {
+    background: rgb(168, 196, 172);
+    border-color: rgb(58, 88, 65);
+    font-weight: 650;
+}
+
+.todoCheckbox {
+    border-width: 3px;
+    border-radius: 2px;
+    background: white;
+    border-style: solid;
+    border-color: rgb(58, 88, 65);
+    vertical-align: middle;
+    margin-right: 15px;
+    padding-top: 2px;
+    transition: 0.1s ease-in-out;
+}
+.todoCheckbox:hover {
+    background: rgb(221, 221, 221);
+    border-color: rgb(38, 59, 43);
+}
+.todoCheckbox:active {
+    background: rgb(162, 203, 177);
+    border-color: rgb(24, 51, 31);
+}
